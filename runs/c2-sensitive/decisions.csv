@@ -1,0 +1,3 @@
+unix_ms,time,t_run,signal,current,ready,min,max,computed,desired,action
+1793961248947,18:34:08.947,606.9,0.077,4,4,2,4,2,4,none
+1793961263948,18:34:23.948,621.9,0.082,4,4,2,4,2,4,none

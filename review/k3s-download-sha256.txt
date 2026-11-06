@@ -1,0 +1,2 @@
+265b3ee6a3198ef14033c63ef46cbb32370d83795199fb6d1b01f21575eddbda  /home/sbse/k3s
+35a5af1e69b57b8b627a4f6b1c29ea104209b661067b8c97fd40dc3f860bfcd2  /home/sbse/k3s-airgap-images-amd64.tar.zst

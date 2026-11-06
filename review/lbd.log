@@ -1,0 +1,333 @@
+2026/11/06 17:38:05 lbd 监听 127.0.0.1:18080（管理接口 127.0.0.1:8090）；rr；健康检查 /readyz 每 1s，超时 500ms，fall 3、rise 2；被动摘除 false；事件写入 data/lbd-events.csv
+2026/11/06 17:38:30 127.0.0.1:8101 added init=down
+2026/11/06 17:39:32 127.0.0.1:8101 up 连续成功 2 次
+2026/11/06 17:41:15 127.0.0.1:8101 removed inflight=0
+2026/11/06 17:41:37 127.0.0.1:8101 added init=down
+2026/11/06 17:41:37 127.0.0.1:8102 added init=down
+2026/11/06 17:41:37 127.0.0.1:8103 added init=down
+2026/11/06 17:41:37 127.0.0.1:8104 added init=down
+2026/11/06 17:43:17 lbd 监听 127.0.0.1:18080（管理接口 127.0.0.1:8090）；rr；健康检查 /readyz 每 1s，超时 500ms，fall 3、rise 2；被动摘除 false；事件写入 data/lbd-events.csv
+2026/11/06 17:43:42 127.0.0.1:8101 added init=down
+2026/11/06 17:44:44 127.0.0.1:8101 up 连续成功 2 次
+2026/11/06 17:45:50 127.0.0.1:8101 down 连续失败 3 次：Get "http://127.0.0.1:8101/readyz": context deadline exceeded (Client.Timeout exceeded while awaiting headers)
+2026/11/06 17:45:52 127.0.0.1:8101 up 连续成功 2 次
+2026/11/06 17:46:02 127.0.0.1:8101 down 连续失败 3 次：Get "http://127.0.0.1:8101/readyz": context deadline exceeded (Client.Timeout exceeded while awaiting headers)
+2026/11/06 17:46:04 127.0.0.1:8101 up 连续成功 2 次
+2026/11/06 17:46:08 127.0.0.1:8101 down 连续失败 3 次：Get "http://127.0.0.1:8101/readyz": context deadline exceeded (Client.Timeout exceeded while awaiting headers)
+2026/11/06 17:46:11 127.0.0.1:8101 up 连续成功 2 次
+2026/11/06 17:46:15 127.0.0.1:8101 down 连续失败 3 次：Get "http://127.0.0.1:8101/readyz": context deadline exceeded (Client.Timeout exceeded while awaiting headers)
+2026/11/06 17:46:17 127.0.0.1:8101 up 连续成功 2 次
+2026/11/06 17:46:20 127.0.0.1:8101 down 连续失败 3 次：Get "http://127.0.0.1:8101/readyz": context deadline exceeded (Client.Timeout exceeded while awaiting headers)
+2026/11/06 17:46:22 127.0.0.1:8101 up 连续成功 2 次
+2026/11/06 17:46:26 127.0.0.1:8101 down 连续失败 3 次：Get "http://127.0.0.1:8101/readyz": context deadline exceeded (Client.Timeout exceeded while awaiting headers)
+2026/11/06 17:46:29 127.0.0.1:8101 up 连续成功 2 次
+2026/11/06 17:46:32 127.0.0.1:8101 down 连续失败 3 次：Get "http://127.0.0.1:8101/readyz": context deadline exceeded (Client.Timeout exceeded while awaiting headers)
+2026/11/06 17:46:34 127.0.0.1:8101 up 连续成功 2 次
+2026/11/06 17:46:38 127.0.0.1:8101 down 连续失败 3 次：Get "http://127.0.0.1:8101/readyz": context deadline exceeded (Client.Timeout exceeded while awaiting headers)
+2026/11/06 17:46:40 127.0.0.1:8101 up 连续成功 2 次
+2026/11/06 17:46:43 127.0.0.1:8101 down 连续失败 3 次：Get "http://127.0.0.1:8101/readyz": context deadline exceeded (Client.Timeout exceeded while awaiting headers)
+2026/11/06 17:46:46 127.0.0.1:8101 up 连续成功 2 次
+2026/11/06 17:46:47 127.0.0.1:8101 removed inflight=0
+2026/11/06 17:47:09 127.0.0.1:8101 added init=down
+2026/11/06 17:47:09 127.0.0.1:8102 added init=down
+2026/11/06 17:47:09 127.0.0.1:8103 added init=down
+2026/11/06 17:47:09 127.0.0.1:8104 added init=down
+2026/11/06 17:48:10 127.0.0.1:8101 up 连续成功 2 次
+2026/11/06 17:48:11 127.0.0.1:8102 up 连续成功 2 次
+2026/11/06 17:48:11 127.0.0.1:8103 up 连续成功 2 次
+2026/11/06 17:48:11 127.0.0.1:8104 up 连续成功 2 次
+2026/11/06 17:58:44 127.0.0.1:8104 removed inflight=0
+2026/11/06 17:58:44 127.0.0.1:8103 removed inflight=0
+2026/11/06 17:58:44 127.0.0.1:8101 removed inflight=0
+2026/11/06 17:58:44 127.0.0.1:8102 removed inflight=0
+2026/11/06 17:59:06 127.0.0.1:8101 added init=down
+2026/11/06 17:59:06 127.0.0.1:8102 added init=down
+2026/11/06 18:00:08 127.0.0.1:8101 up 连续成功 2 次
+2026/11/06 18:00:08 127.0.0.1:8102 up 连续成功 2 次
+2026/11/06 18:02:39 127.0.0.1:8101 down 连续失败 3 次：Get "http://127.0.0.1:8101/readyz": context deadline exceeded (Client.Timeout exceeded while awaiting headers)
+2026/11/06 18:02:39 127.0.0.1:8102 down 连续失败 3 次：Get "http://127.0.0.1:8102/readyz": context deadline exceeded (Client.Timeout exceeded while awaiting headers)
+2026/11/06 18:02:42 127.0.0.1:8101 up 连续成功 2 次
+2026/11/06 18:02:42 127.0.0.1:8102 up 连续成功 2 次
+2026/11/06 18:02:45 127.0.0.1:8102 down 连续失败 3 次：Get "http://127.0.0.1:8102/readyz": context deadline exceeded (Client.Timeout exceeded while awaiting headers)
+2026/11/06 18:02:46 127.0.0.1:8101 down 连续失败 3 次：Get "http://127.0.0.1:8101/readyz": context deadline exceeded (Client.Timeout exceeded while awaiting headers)
+2026/11/06 18:02:47 127.0.0.1:8102 up 连续成功 2 次
+2026/11/06 18:02:50 127.0.0.1:8101 up 连续成功 2 次
+2026/11/06 18:02:50 127.0.0.1:8102 down 连续失败 3 次：Get "http://127.0.0.1:8102/readyz": context deadline exceeded (Client.Timeout exceeded while awaiting headers)
+2026/11/06 18:02:51 127.0.0.1:8103 added init=down
+2026/11/06 18:02:53 127.0.0.1:8101 down 连续失败 3 次：Get "http://127.0.0.1:8101/readyz": context deadline exceeded (Client.Timeout exceeded while awaiting headers)
+2026/11/06 18:02:57 127.0.0.1:8102 up 连续成功 2 次
+2026/11/06 18:02:59 127.0.0.1:8101 up 连续成功 2 次
+2026/11/06 18:03:00 127.0.0.1:8102 down 连续失败 3 次：Get "http://127.0.0.1:8102/readyz": context deadline exceeded (Client.Timeout exceeded while awaiting headers)
+2026/11/06 18:03:02 127.0.0.1:8101 down 连续失败 3 次：Get "http://127.0.0.1:8101/readyz": context deadline exceeded (Client.Timeout exceeded while awaiting headers)
+2026/11/06 18:03:06 127.0.0.1:8104 added init=down
+2026/11/06 18:03:06 127.0.0.1:8102 up 连续成功 2 次
+2026/11/06 18:03:07 127.0.0.1:8101 up 连续成功 2 次
+2026/11/06 18:03:09 127.0.0.1:8102 down 连续失败 3 次：Get "http://127.0.0.1:8102/readyz": context deadline exceeded (Client.Timeout exceeded while awaiting headers)
+2026/11/06 18:03:11 127.0.0.1:8101 down 连续失败 3 次：Get "http://127.0.0.1:8101/readyz": context deadline exceeded (Client.Timeout exceeded while awaiting headers)
+2026/11/06 18:03:13 127.0.0.1:8102 up 连续成功 2 次
+2026/11/06 18:03:16 127.0.0.1:8102 down 连续失败 3 次：Get "http://127.0.0.1:8102/readyz": context deadline exceeded (Client.Timeout exceeded while awaiting headers)
+2026/11/06 18:03:17 127.0.0.1:8101 up 连续成功 2 次
+2026/11/06 18:03:20 127.0.0.1:8101 down 连续失败 3 次：Get "http://127.0.0.1:8101/readyz": context deadline exceeded (Client.Timeout exceeded while awaiting headers)
+2026/11/06 18:03:23 127.0.0.1:8102 up 连续成功 2 次
+2026/11/06 18:03:26 127.0.0.1:8102 down 连续失败 3 次：Get "http://127.0.0.1:8102/readyz": context deadline exceeded (Client.Timeout exceeded while awaiting headers)
+2026/11/06 18:03:27 127.0.0.1:8101 up 连续成功 2 次
+2026/11/06 18:03:30 127.0.0.1:8101 down 连续失败 3 次：Get "http://127.0.0.1:8101/readyz": context deadline exceeded (Client.Timeout exceeded while awaiting headers)
+2026/11/06 18:03:34 127.0.0.1:8102 up 连续成功 2 次
+2026/11/06 18:03:37 127.0.0.1:8101 up 连续成功 2 次
+2026/11/06 18:03:37 127.0.0.1:8102 down 连续失败 3 次：Get "http://127.0.0.1:8102/readyz": context deadline exceeded (Client.Timeout exceeded while awaiting headers)
+2026/11/06 18:03:40 127.0.0.1:8101 down 连续失败 3 次：Get "http://127.0.0.1:8101/readyz": context deadline exceeded (Client.Timeout exceeded while awaiting headers)
+2026/11/06 18:03:43 127.0.0.1:8102 up 连续成功 2 次
+2026/11/06 18:03:46 127.0.0.1:8102 down 连续失败 3 次：Get "http://127.0.0.1:8102/readyz": context deadline exceeded (Client.Timeout exceeded while awaiting headers)
+2026/11/06 18:03:47 127.0.0.1:8101 up 连续成功 2 次
+2026/11/06 18:03:50 127.0.0.1:8101 down 连续失败 3 次：Get "http://127.0.0.1:8101/readyz": context deadline exceeded (Client.Timeout exceeded while awaiting headers)
+2026/11/06 18:03:53 127.0.0.1:8103 up 连续成功 2 次
+2026/11/06 18:03:53 127.0.0.1:8102 up 连续成功 2 次
+2026/11/06 18:03:56 127.0.0.1:8103 down 连续失败 3 次：Get "http://127.0.0.1:8103/readyz": context deadline exceeded (Client.Timeout exceeded while awaiting headers)
+2026/11/06 18:03:57 127.0.0.1:8101 up 连续成功 2 次
+2026/11/06 18:03:57 127.0.0.1:8102 down 连续失败 3 次：Get "http://127.0.0.1:8102/readyz": context deadline exceeded (Client.Timeout exceeded while awaiting headers)
+2026/11/06 18:03:58 127.0.0.1:8103 up 连续成功 2 次
+2026/11/06 18:04:00 127.0.0.1:8102 up 连续成功 2 次
+2026/11/06 18:04:00 127.0.0.1:8101 down 连续失败 3 次：Get "http://127.0.0.1:8101/readyz": context deadline exceeded (Client.Timeout exceeded while awaiting headers)
+2026/11/06 18:04:02 127.0.0.1:8103 down 连续失败 3 次：Get "http://127.0.0.1:8103/readyz": context deadline exceeded (Client.Timeout exceeded while awaiting headers)
+2026/11/06 18:04:03 127.0.0.1:8101 up 连续成功 2 次
+2026/11/06 18:04:04 127.0.0.1:8102 down 连续失败 3 次：Get "http://127.0.0.1:8102/readyz": context deadline exceeded (Client.Timeout exceeded while awaiting headers)
+2026/11/06 18:04:05 127.0.0.1:8103 up 连续成功 2 次
+2026/11/06 18:04:07 127.0.0.1:8102 up 连续成功 2 次
+2026/11/06 18:04:07 127.0.0.1:8101 down 连续失败 3 次：Get "http://127.0.0.1:8101/readyz": context deadline exceeded (Client.Timeout exceeded while awaiting headers)
+2026/11/06 18:04:08 127.0.0.1:8104 up 连续成功 2 次
+2026/11/06 18:04:09 127.0.0.1:8103 down 连续失败 3 次：Get "http://127.0.0.1:8103/readyz": context deadline exceeded (Client.Timeout exceeded while awaiting headers)
+2026/11/06 18:04:10 127.0.0.1:8101 up 连续成功 2 次
+2026/11/06 18:04:11 127.0.0.1:8103 up 连续成功 2 次
+2026/11/06 18:10:41 127.0.0.1:8104 removed inflight=0
+2026/11/06 18:10:41 127.0.0.1:8102 removed inflight=0
+2026/11/06 18:10:41 127.0.0.1:8101 removed inflight=0
+2026/11/06 18:10:41 127.0.0.1:8103 removed inflight=0
+2026/11/06 18:11:03 127.0.0.1:8101 added init=down
+2026/11/06 18:11:03 127.0.0.1:8102 added init=down
+2026/11/06 18:12:04 127.0.0.1:8101 up 连续成功 2 次
+2026/11/06 18:12:05 127.0.0.1:8102 up 连续成功 2 次
+2026/11/06 18:14:36 127.0.0.1:8102 down 连续失败 3 次：Get "http://127.0.0.1:8102/readyz": context deadline exceeded (Client.Timeout exceeded while awaiting headers)
+2026/11/06 18:14:37 127.0.0.1:8101 down 连续失败 3 次：Get "http://127.0.0.1:8101/readyz": context deadline exceeded (Client.Timeout exceeded while awaiting headers)
+2026/11/06 18:14:39 127.0.0.1:8102 up 连续成功 2 次
+2026/11/06 18:14:41 127.0.0.1:8101 up 连续成功 2 次
+2026/11/06 18:14:42 127.0.0.1:8102 down 连续失败 3 次：Get "http://127.0.0.1:8102/readyz": context deadline exceeded (Client.Timeout exceeded while awaiting headers)
+2026/11/06 18:14:45 127.0.0.1:8101 down 连续失败 3 次：Get "http://127.0.0.1:8101/readyz": context deadline exceeded (Client.Timeout exceeded while awaiting headers)
+2026/11/06 18:14:47 127.0.0.1:8102 up 连续成功 2 次
+2026/11/06 18:14:50 127.0.0.1:8102 down 连续失败 3 次：Get "http://127.0.0.1:8102/readyz": context deadline exceeded (Client.Timeout exceeded while awaiting headers)
+2026/11/06 18:14:52 127.0.0.1:8101 up 连续成功 2 次
+2026/11/06 18:14:55 127.0.0.1:8101 down 连续失败 3 次：Get "http://127.0.0.1:8101/readyz": context deadline exceeded (Client.Timeout exceeded while awaiting headers)
+2026/11/06 18:14:57 127.0.0.1:8102 up 连续成功 2 次
+2026/11/06 18:15:00 127.0.0.1:8102 down 连续失败 3 次：Get "http://127.0.0.1:8102/readyz": context deadline exceeded (Client.Timeout exceeded while awaiting headers)
+2026/11/06 18:15:02 127.0.0.1:8101 up 连续成功 2 次
+2026/11/06 18:15:03 127.0.0.1:8103 added init=down
+2026/11/06 18:15:05 127.0.0.1:8101 down 连续失败 3 次：Get "http://127.0.0.1:8101/readyz": context deadline exceeded (Client.Timeout exceeded while awaiting headers)
+2026/11/06 18:15:07 127.0.0.1:8102 up 连续成功 2 次
+2026/11/06 18:15:13 127.0.0.1:8101 up 连续成功 2 次
+2026/11/06 18:15:13 127.0.0.1:8102 down 连续失败 3 次：Get "http://127.0.0.1:8102/readyz": context deadline exceeded (Client.Timeout exceeded while awaiting headers)
+2026/11/06 18:15:16 127.0.0.1:8101 down 连续失败 3 次：Get "http://127.0.0.1:8101/readyz": context deadline exceeded (Client.Timeout exceeded while awaiting headers)
+2026/11/06 18:15:18 127.0.0.1:8104 added init=down
+2026/11/06 18:15:22 127.0.0.1:8101 up 连续成功 2 次
+2026/11/06 18:15:24 127.0.0.1:8102 up 连续成功 2 次
+2026/11/06 18:15:25 127.0.0.1:8101 down 连续失败 3 次：Get "http://127.0.0.1:8101/readyz": context deadline exceeded (Client.Timeout exceeded while awaiting headers)
+2026/11/06 18:15:28 127.0.0.1:8102 down 连续失败 3 次：Get "http://127.0.0.1:8102/readyz": context deadline exceeded (Client.Timeout exceeded while awaiting headers)
+2026/11/06 18:15:30 127.0.0.1:8101 up 连续成功 2 次
+2026/11/06 18:15:33 127.0.0.1:8101 down 连续失败 3 次：Get "http://127.0.0.1:8101/readyz": context deadline exceeded (Client.Timeout exceeded while awaiting headers)
+2026/11/06 18:15:35 127.0.0.1:8102 up 连续成功 2 次
+2026/11/06 18:15:38 127.0.0.1:8102 down 连续失败 3 次：Get "http://127.0.0.1:8102/readyz": context deadline exceeded (Client.Timeout exceeded while awaiting headers)
+2026/11/06 18:15:40 127.0.0.1:8101 up 连续成功 2 次
+2026/11/06 18:15:43 127.0.0.1:8101 down 连续失败 3 次：Get "http://127.0.0.1:8101/readyz": context deadline exceeded (Client.Timeout exceeded while awaiting headers)
+2026/11/06 18:15:45 127.0.0.1:8102 up 连续成功 2 次
+2026/11/06 18:15:48 127.0.0.1:8102 down 连续失败 3 次：Get "http://127.0.0.1:8102/readyz": context deadline exceeded (Client.Timeout exceeded while awaiting headers)
+2026/11/06 18:15:50 127.0.0.1:8101 up 连续成功 2 次
+2026/11/06 18:15:53 127.0.0.1:8101 down 连续失败 3 次：Get "http://127.0.0.1:8101/readyz": context deadline exceeded (Client.Timeout exceeded while awaiting headers)
+2026/11/06 18:15:55 127.0.0.1:8102 up 连续成功 2 次
+2026/11/06 18:15:58 127.0.0.1:8102 down 连续失败 3 次：Get "http://127.0.0.1:8102/readyz": context deadline exceeded (Client.Timeout exceeded while awaiting headers)
+2026/11/06 18:16:00 127.0.0.1:8101 up 连续成功 2 次
+2026/11/06 18:16:03 127.0.0.1:8101 down 连续失败 3 次：Get "http://127.0.0.1:8101/readyz": context deadline exceeded (Client.Timeout exceeded while awaiting headers)
+2026/11/06 18:16:05 127.0.0.1:8103 up 连续成功 2 次
+2026/11/06 18:16:05 127.0.0.1:8102 up 连续成功 2 次
+2026/11/06 18:16:08 127.0.0.1:8103 down 连续失败 3 次：Get "http://127.0.0.1:8103/readyz": context deadline exceeded (Client.Timeout exceeded while awaiting headers)
+2026/11/06 18:16:09 127.0.0.1:8102 down 连续失败 3 次：Get "http://127.0.0.1:8102/readyz": context deadline exceeded (Client.Timeout exceeded while awaiting headers)
+2026/11/06 18:16:10 127.0.0.1:8101 up 连续成功 2 次
+2026/11/06 18:16:10 127.0.0.1:8103 up 连续成功 2 次
+2026/11/06 18:16:13 127.0.0.1:8102 up 连续成功 2 次
+2026/11/06 18:16:14 127.0.0.1:8103 down 连续失败 3 次：Get "http://127.0.0.1:8103/readyz": context deadline exceeded (Client.Timeout exceeded while awaiting headers)
+2026/11/06 18:16:15 127.0.0.1:8101 down 连续失败 3 次：Get "http://127.0.0.1:8101/readyz": context deadline exceeded (Client.Timeout exceeded while awaiting headers)
+2026/11/06 18:16:16 127.0.0.1:8103 up 连续成功 2 次
+2026/11/06 18:16:17 127.0.0.1:8101 up 连续成功 2 次
+2026/11/06 18:16:18 127.0.0.1:8102 down 连续失败 3 次：Get "http://127.0.0.1:8102/readyz": context deadline exceeded (Client.Timeout exceeded while awaiting headers)
+2026/11/06 18:16:20 127.0.0.1:8102 up 连续成功 2 次
+2026/11/06 18:16:20 127.0.0.1:8104 up 连续成功 2 次
+2026/11/06 18:22:37 127.0.0.1:8101 removed inflight=0
+2026/11/06 18:22:37 127.0.0.1:8102 removed inflight=0
+2026/11/06 18:22:37 127.0.0.1:8103 removed inflight=0
+2026/11/06 18:22:37 127.0.0.1:8104 removed inflight=0
+2026/11/06 18:22:59 127.0.0.1:8101 added init=down
+2026/11/06 18:22:59 127.0.0.1:8102 added init=down
+2026/11/06 18:24:01 127.0.0.1:8101 up 连续成功 2 次
+2026/11/06 18:24:01 127.0.0.1:8102 up 连续成功 2 次
+2026/11/06 18:24:44 127.0.0.1:8103 added init=down
+2026/11/06 18:24:44 127.0.0.1:8104 added init=down
+2026/11/06 18:25:46 127.0.0.1:8103 up 连续成功 2 次
+2026/11/06 18:25:46 127.0.0.1:8104 up 连续成功 2 次
+2026/11/06 18:34:34 127.0.0.1:8104 removed inflight=0
+2026/11/06 18:34:34 127.0.0.1:8101 removed inflight=0
+2026/11/06 18:34:34 127.0.0.1:8102 removed inflight=0
+2026/11/06 18:34:34 127.0.0.1:8103 removed inflight=0
+2026/11/06 18:34:56 127.0.0.1:8101 added init=down
+2026/11/06 18:34:56 127.0.0.1:8102 added init=down
+2026/11/06 18:34:56 127.0.0.1:8103 added init=down
+2026/11/06 18:35:57 127.0.0.1:8101 up 连续成功 2 次
+2026/11/06 18:35:58 127.0.0.1:8102 up 连续成功 2 次
+2026/11/06 18:35:58 127.0.0.1:8103 up 连续成功 2 次
+2026/11/06 18:36:59 127.0.0.1:8102 removed inflight=0
+2026/11/06 18:37:20 127.0.0.1:8102 added init=down
+2026/11/06 18:38:22 127.0.0.1:8102 up 连续成功 2 次
+2026/11/06 18:38:42 127.0.0.1:8103 down 连续失败 3 次：Get "http://127.0.0.1:8103/readyz": context deadline exceeded (Client.Timeout exceeded while awaiting headers)
+2026/11/06 18:39:00 127.0.0.1:8103 up 连续成功 2 次
+2026/11/06 18:40:01 127.0.0.1:8102 removed inflight=0
+2026/11/06 18:40:01 127.0.0.1:8101 removed inflight=0
+2026/11/06 18:40:01 127.0.0.1:8103 removed inflight=0
+2026/11/06 18:40:22 127.0.0.1:8101 added init=down
+2026/11/06 18:40:22 127.0.0.1:8102 added init=down
+2026/11/06 18:40:22 127.0.0.1:8103 added init=down
+2026/11/06 18:41:24 127.0.0.1:8101 up 连续成功 2 次
+2026/11/06 18:41:24 127.0.0.1:8102 up 连续成功 2 次
+2026/11/06 18:41:24 127.0.0.1:8103 up 连续成功 2 次
+2026/11/06 18:41:25 lbd 监听 127.0.0.1:18080（管理接口 127.0.0.1:8090）；rr；健康检查 /readyz 每 1s，超时 500ms，fall 3、rise 2；被动摘除 false；事件写入 data/lbd-events.csv
+2026/11/06 18:41:25 127.0.0.1:8101 added init=down
+2026/11/06 18:41:25 127.0.0.1:8102 added init=down
+2026/11/06 18:41:25 127.0.0.1:8103 added init=down
+2026/11/06 18:41:27 127.0.0.1:8101 up 连续成功 2 次
+2026/11/06 18:41:27 127.0.0.1:8102 up 连续成功 2 次
+2026/11/06 18:41:27 127.0.0.1:8103 up 连续成功 2 次
+2026/11/06 18:42:22 127.0.0.1:8102 down 连续失败 3 次：Get "http://127.0.0.1:8102/readyz": context deadline exceeded (Client.Timeout exceeded while awaiting headers)
+2026/11/06 18:42:22 127.0.0.1:8103 down 连续失败 3 次：Get "http://127.0.0.1:8103/readyz": context deadline exceeded (Client.Timeout exceeded while awaiting headers)
+2026/11/06 18:42:23 127.0.0.1:8102 up 连续成功 2 次
+2026/11/06 18:42:23 127.0.0.1:8103 up 连续成功 2 次
+2026/11/06 18:42:25 127.0.0.1:8101 down 连续失败 3 次：Get "http://127.0.0.1:8101/readyz": context deadline exceeded (Client.Timeout exceeded while awaiting headers)
+2026/11/06 18:42:26 127.0.0.1:8101 up 连续成功 2 次
+2026/11/06 18:43:41 lbd 监听 127.0.0.1:18080（管理接口 127.0.0.1:8090）；rr；健康检查 /readyz 每 500ms，超时 200ms，fall 1、rise 2；被动摘除 false；事件写入 data/lbd-events.csv
+2026/11/06 18:43:41 127.0.0.1:8101 added init=down
+2026/11/06 18:43:41 127.0.0.1:8102 added init=down
+2026/11/06 18:43:41 127.0.0.1:8103 added init=down
+2026/11/06 18:43:42 127.0.0.1:8101 up 连续成功 2 次
+2026/11/06 18:43:42 127.0.0.1:8102 up 连续成功 2 次
+2026/11/06 18:43:42 127.0.0.1:8103 up 连续成功 2 次
+2026/11/06 18:44:35 127.0.0.1:8101 down 连续失败 1 次：Get "http://127.0.0.1:8101/readyz": context deadline exceeded (Client.Timeout exceeded while awaiting headers)
+2026/11/06 18:44:35 127.0.0.1:8102 down 连续失败 1 次：Get "http://127.0.0.1:8102/readyz": context deadline exceeded (Client.Timeout exceeded while awaiting headers)
+2026/11/06 18:44:35 127.0.0.1:8103 down 连续失败 1 次：Get "http://127.0.0.1:8103/readyz": context deadline exceeded (Client.Timeout exceeded while awaiting headers)
+2026/11/06 18:44:38 127.0.0.1:8101 up 连续成功 2 次
+2026/11/06 18:44:38 127.0.0.1:8102 up 连续成功 2 次
+2026/11/06 18:44:38 127.0.0.1:8103 up 连续成功 2 次
+2026/11/06 18:45:57 lbd 监听 127.0.0.1:18080（管理接口 127.0.0.1:8090）；rr；健康检查 /readyz 每 1s，超时 500ms，fall 3、rise 2；被动摘除 false；事件写入 data/lbd-events.csv
+2026/11/06 18:45:57 127.0.0.1:8101 added init=down
+2026/11/06 18:45:57 127.0.0.1:8102 added init=down
+2026/11/06 18:45:57 127.0.0.1:8103 added init=down
+2026/11/06 18:45:59 127.0.0.1:8101 up 连续成功 2 次
+2026/11/06 18:45:59 127.0.0.1:8102 up 连续成功 2 次
+2026/11/06 18:45:59 127.0.0.1:8103 up 连续成功 2 次
+2026/11/06 18:50:13 lbd 监听 127.0.0.1:18080（管理接口 127.0.0.1:8090）；rr；健康检查 /readyz 每 1s，超时 500ms，fall 3、rise 2；被动摘除 true；事件写入 data/lbd-events.csv
+2026/11/06 18:50:14 127.0.0.1:8101 added init=down
+2026/11/06 18:50:14 127.0.0.1:8102 added init=down
+2026/11/06 18:50:14 127.0.0.1:8103 added init=down
+2026/11/06 18:50:16 127.0.0.1:8101 up 连续成功 2 次
+2026/11/06 18:50:16 127.0.0.1:8102 up 连续成功 2 次
+2026/11/06 18:50:16 127.0.0.1:8103 up 连续成功 2 次
+2026/11/06 18:52:36 127.0.0.1:8102 ejected p99=60.2ms err=0.000，摘除 30s
+2026/11/06 18:53:06 127.0.0.1:8102 restored 被动摘除到期
+2026/11/06 18:53:08 127.0.0.1:8102 ejected p99=55.3ms err=0.000，摘除 30s
+2026/11/06 18:53:38 127.0.0.1:8102 restored 被动摘除到期
+2026/11/06 18:54:29 lbd 监听 127.0.0.1:18080（管理接口 127.0.0.1:8090）；rr；健康检查 /readyz 每 1s，超时 500ms，fall 3、rise 2；被动摘除 false；事件写入 data/lbd-events.csv
+2026/11/06 18:54:30 127.0.0.1:8101 added init=down
+2026/11/06 18:54:30 127.0.0.1:8102 added init=down
+2026/11/06 18:54:30 127.0.0.1:8103 added init=down
+2026/11/06 18:54:32 127.0.0.1:8101 up 连续成功 2 次
+2026/11/06 18:54:32 127.0.0.1:8102 up 连续成功 2 次
+2026/11/06 18:54:32 127.0.0.1:8103 up 连续成功 2 次
+2026/11/06 18:54:33 127.0.0.1:8103 removed inflight=0
+2026/11/06 18:54:33 127.0.0.1:8101 removed inflight=0
+2026/11/06 18:54:33 127.0.0.1:8102 removed inflight=0
+2026/11/06 18:54:55 127.0.0.1:8101 added init=down
+2026/11/06 18:54:55 127.0.0.1:8102 added init=down
+2026/11/06 18:54:55 127.0.0.1:8103 added init=down
+2026/11/06 18:55:57 127.0.0.1:8101 up 连续成功 2 次
+2026/11/06 18:55:57 127.0.0.1:8102 up 连续成功 2 次
+2026/11/06 18:55:57 127.0.0.1:8103 up 连续成功 2 次
+2026/11/06 18:56:30 127.0.0.1:8101 down 连续失败 3 次：状态码 503
+2026/11/06 18:56:35 127.0.0.1:8102 down 连续失败 3 次：状态码 503
+2026/11/06 18:56:38 127.0.0.1:8103 down 连续失败 3 次：状态码 503
+2026/11/06 18:57:29 127.0.0.1:8101 up 连续成功 2 次
+2026/11/06 18:57:33 127.0.0.1:8101 down 连续失败 3 次：Get "http://127.0.0.1:8101/readyz": context deadline exceeded (Client.Timeout exceeded while awaiting headers)
+2026/11/06 18:57:34 127.0.0.1:8102 up 连续成功 2 次
+2026/11/06 18:57:35 127.0.0.1:8101 up 连续成功 2 次
+2026/11/06 18:57:39 127.0.0.1:8103 up 连续成功 2 次
+2026/11/06 18:59:00 127.0.0.1:8103 removed inflight=0
+2026/11/06 18:59:00 127.0.0.1:8101 removed inflight=0
+2026/11/06 18:59:00 127.0.0.1:8102 removed inflight=0
+2026/11/06 18:59:22 127.0.0.1:8101 added init=down
+2026/11/06 18:59:22 127.0.0.1:8102 added init=down
+2026/11/06 18:59:22 127.0.0.1:8103 added init=down
+2026/11/06 19:00:24 127.0.0.1:8101 up 连续成功 2 次
+2026/11/06 19:00:24 127.0.0.1:8102 up 连续成功 2 次
+2026/11/06 19:00:24 127.0.0.1:8103 up 连续成功 2 次
+2026/11/06 19:01:15 127.0.0.1:8104 added init=down
+2026/11/06 19:02:17 127.0.0.1:8104 up 连续成功 2 次
+2026/11/06 19:02:19 127.0.0.1:8101 draining inflight=0
+2026/11/06 19:02:19 127.0.0.1:8101 removed inflight=0
+2026/11/06 19:02:41 127.0.0.1:8101 added init=down
+2026/11/06 19:03:43 127.0.0.1:8101 up 连续成功 2 次
+2026/11/06 19:03:45 127.0.0.1:8102 draining inflight=0
+2026/11/06 19:03:45 127.0.0.1:8102 removed inflight=0
+2026/11/06 19:04:07 127.0.0.1:8102 added init=down
+2026/11/06 19:05:09 127.0.0.1:8102 up 连续成功 2 次
+2026/11/06 19:05:10 127.0.0.1:8103 draining inflight=1
+2026/11/06 19:05:11 127.0.0.1:8103 removed inflight=0
+2026/11/06 19:07:27 127.0.0.1:8104 removed inflight=0
+2026/11/06 19:07:27 127.0.0.1:8102 removed inflight=0
+2026/11/06 19:07:27 127.0.0.1:8101 removed inflight=0
+2026/11/06 19:07:49 127.0.0.1:8101 added init=down
+2026/11/06 19:07:49 127.0.0.1:8102 added init=down
+2026/11/06 19:07:49 127.0.0.1:8103 added init=down
+2026/11/06 19:08:01 127.0.0.1:8101 up 连续成功 2 次
+2026/11/06 19:08:01 127.0.0.1:8102 up 连续成功 2 次
+2026/11/06 19:08:01 127.0.0.1:8103 up 连续成功 2 次
+2026/11/06 19:09:08 127.0.0.1:8101 down 连续失败 3 次：状态码 503
+2026/11/06 19:09:08 127.0.0.1:8102 down 连续失败 3 次：状态码 503
+2026/11/06 19:09:08 127.0.0.1:8103 down 连续失败 3 次：状态码 503
+2026/11/06 19:09:19 127.0.0.1:8101 up 连续成功 2 次
+2026/11/06 19:09:19 127.0.0.1:8102 up 连续成功 2 次
+2026/11/06 19:09:19 127.0.0.1:8103 up 连续成功 2 次
+2026/11/06 19:10:24 127.0.0.1:8101 down 连续失败 3 次：状态码 503
+2026/11/06 19:10:24 127.0.0.1:8102 down 连续失败 3 次：状态码 503
+2026/11/06 19:10:24 127.0.0.1:8103 down 连续失败 3 次：状态码 503
+2026/11/06 19:10:35 127.0.0.1:8101 up 连续成功 2 次
+2026/11/06 19:10:35 127.0.0.1:8102 up 连续成功 2 次
+2026/11/06 19:10:35 127.0.0.1:8103 up 连续成功 2 次
+2026/11/06 19:11:41 127.0.0.1:8101 down 连续失败 3 次：状态码 503
+2026/11/06 19:11:41 127.0.0.1:8102 down 连续失败 3 次：状态码 503
+2026/11/06 19:11:41 127.0.0.1:8103 down 连续失败 3 次：状态码 503
+2026/11/06 19:11:52 127.0.0.1:8101 up 连续成功 2 次
+2026/11/06 19:11:52 127.0.0.1:8102 up 连续成功 2 次
+2026/11/06 19:11:52 127.0.0.1:8103 up 连续成功 2 次
+2026/11/06 19:12:58 127.0.0.1:8102 down 连续失败 3 次：状态码 503
+2026/11/06 19:12:58 127.0.0.1:8103 down 连续失败 3 次：状态码 503
+2026/11/06 19:12:59 127.0.0.1:8101 down 连续失败 3 次：状态码 503
+2026/11/06 19:13:09 127.0.0.1:8102 up 连续成功 2 次
+2026/11/06 19:13:09 127.0.0.1:8103 up 连续成功 2 次
+2026/11/06 19:13:10 127.0.0.1:8101 up 连续成功 2 次
+2026/11/06 19:14:15 127.0.0.1:8102 down 连续失败 3 次：状态码 503
+2026/11/06 19:14:15 127.0.0.1:8103 down 连续失败 3 次：状态码 503
+2026/11/06 19:14:17 127.0.0.1:8101 down 连续失败 3 次：状态码 503
+2026/11/06 19:14:26 127.0.0.1:8102 up 连续成功 2 次
+2026/11/06 19:14:26 127.0.0.1:8103 up 连续成功 2 次
+2026/11/06 19:14:28 127.0.0.1:8101 up 连续成功 2 次
+2026/11/06 19:15:31 127.0.0.1:8102 down 连续失败 3 次：状态码 503
+2026/11/06 19:15:31 127.0.0.1:8103 down 连续失败 3 次：状态码 503
+2026/11/06 19:15:34 127.0.0.1:8101 down 连续失败 3 次：状态码 503
+2026/11/06 19:15:42 127.0.0.1:8102 up 连续成功 2 次
+2026/11/06 19:15:42 127.0.0.1:8103 up 连续成功 2 次
+2026/11/06 19:15:45 127.0.0.1:8101 up 连续成功 2 次
+2026/11/06 19:16:04 127.0.0.1:8103 removed inflight=0
+2026/11/06 19:16:04 127.0.0.1:8101 removed inflight=0
+2026/11/06 19:16:04 127.0.0.1:8102 removed inflight=0

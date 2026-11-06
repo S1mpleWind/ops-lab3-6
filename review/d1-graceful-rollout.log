@@ -1,0 +1,3 @@
++ 2026-11-06T19:00:25+08:00 78: sleep 30
++ 2026-11-06T19:00:55+08:00 78: curl -fsS -X POST '127.0.0.1:8091/rollout?version=v3&mode=graceful'
+开始滚动发布

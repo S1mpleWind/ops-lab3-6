@@ -1,0 +1,4 @@
++ 2026-11-06T18:41:39+08:00 59: sleep 40
++ 2026-11-06T18:42:19+08:00 59: scripts/inject.sh pause all 2
+已记录：pause *
+已记录：resume *
