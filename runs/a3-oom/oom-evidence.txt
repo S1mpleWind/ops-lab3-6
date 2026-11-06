@@ -1,0 +1,27 @@
+Result=oom-kill
+ExecMainStatus=9
+ActiveState=failed
+Nov 06 17:30:41 master-server1 systemd[1]: Started /home/sbse/lab3/bin/enrolld -addr 127.0.0.1:8081 -data /home/sbse/lab3/data/a -work 2000000.
+Nov 06 17:30:41 master-server1 enrolld[1557488]: 2026/11/06 17:30:41 enrolld v1 监听 127.0.0.1:8081；GOMAXPROCS=2；cgroup /sys/fs/cgroup/system.slice/lab3-a.service；预热 0s；读：work=2000000、pool=32、db-ms=2；写：sync=each
+Nov 06 17:33:34 master-server1 systemd[1]: Stopping /home/sbse/lab3/bin/enrolld -addr 127.0.0.1:8081 -data /home/sbse/lab3/data/a -work 2000000...
+Nov 06 17:33:34 master-server1 enrolld[1557488]: 2026/11/06 17:33:34 收到停止信号：/readyz 改为 503，2s 后停止接收新请求
+Nov 06 17:33:36 master-server1 enrolld[1557488]: 2026/11/06 17:33:36 已停止
+Nov 06 17:33:36 master-server1 systemd[1]: lab3-a.service: Deactivated successfully.
+Nov 06 17:33:36 master-server1 systemd[1]: Stopped /home/sbse/lab3/bin/enrolld -addr 127.0.0.1:8081 -data /home/sbse/lab3/data/a -work 2000000.
+Nov 06 17:33:36 master-server1 systemd[1]: lab3-a.service: Consumed 54.846s CPU time.
+Nov 06 17:33:38 master-server1 systemd[1]: Started /home/sbse/lab3/bin/enrolld -addr 127.0.0.1:8081 -data /home/sbse/lab3/data/a -work 2000000.
+Nov 06 17:33:38 master-server1 enrolld[1558563]: 2026/11/06 17:33:38 enrolld v1 监听 127.0.0.1:8081；GOMAXPROCS=1；cgroup /sys/fs/cgroup/system.slice/lab3-a.service；预热 0s；读：work=2000000、pool=32、db-ms=2；写：sync=each
+Nov 06 17:34:27 master-server1 systemd[1]: Stopping /home/sbse/lab3/bin/enrolld -addr 127.0.0.1:8081 -data /home/sbse/lab3/data/a -work 2000000...
+Nov 06 17:34:27 master-server1 enrolld[1558563]: 2026/11/06 17:34:27 收到停止信号：/readyz 改为 503，2s 后停止接收新请求
+Nov 06 17:34:29 master-server1 enrolld[1558563]: 2026/11/06 17:34:29 已停止
+Nov 06 17:34:29 master-server1 systemd[1]: lab3-a.service: Deactivated successfully.
+Nov 06 17:34:29 master-server1 systemd[1]: Stopped /home/sbse/lab3/bin/enrolld -addr 127.0.0.1:8081 -data /home/sbse/lab3/data/a -work 2000000.
+Nov 06 17:34:29 master-server1 systemd[1]: lab3-a.service: Consumed 15.344s CPU time.
+Nov 06 17:34:31 master-server1 systemd[1]: Started /home/sbse/lab3/bin/enrolld -addr 127.0.0.1:8081 -data /home/sbse/lab3/data/a.
+Nov 06 17:34:31 master-server1 enrolld[1558949]: 2026/11/06 17:34:31 enrolld v1 监听 127.0.0.1:8081；GOMAXPROCS=2；cgroup /sys/fs/cgroup/system.slice/lab3-a.service；预热 0s；读：work=200000、pool=32、db-ms=2；写：sync=each
+Nov 06 17:35:01 master-server1 systemd[1]: lab3-a.service: A process of this unit has been killed by the OOM killer.
+Nov 06 17:35:01 master-server1 systemd[1]: lab3-a.service: Main process exited, code=killed, status=9/KILL
+Nov 06 17:35:01 master-server1 systemd[1]: lab3-a.service: Failed with result 'oom-kill'.
+[1885703.268859] enrolld invoked oom-killer: gfp_mask=0xcc0(GFP_KERNEL), order=0, oom_score_adj=0
+[1885703.268946] oom-kill:constraint=CONSTRAINT_MEMCG,nodemask=(null),cpuset=lab3-a.service,mems_allowed=0,oom_memcg=/system.slice/lab3-a.service,task_memcg=/system.slice/lab3-a.service,task=enrolld,pid=1558949,uid=0
+[1885703.268965] Memory cgroup out of memory: Killed process 1558949 (enrolld) total-vm:1462872kB, anon-rss:203556kB, file-rss:5836kB, shmem-rss:0kB, UID:0 pgtables:496kB oom_score_adj:0

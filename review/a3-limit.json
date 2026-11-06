@@ -1,0 +1,5 @@
+{
+  "max_inflight_at_20": 20,
+  "baseline_allowance_MiB": 40,
+  "limit_MiB": 400
+}

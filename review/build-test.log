@@ -1,0 +1,14 @@
+go build -o bin/enrolld ./cmd/enrolld
+go build -o bin/loadgen ./cmd/loadgen
+go build -o bin/promsteps ./cmd/promsteps
+go build -o bin/lbd ./cmd/lbd
+go build -o bin/scaler ./cmd/scaler
+go build -o bin/lab3sum ./cmd/lab3sum
+go test -count=1 ./...
+ok  	enroll-lab/cmd/enrolld	2.047s
+ok  	enroll-lab/cmd/lab3sum	0.002s
+ok  	enroll-lab/cmd/lbd	0.130s
+ok  	enroll-lab/cmd/loadgen	6.164s
+ok  	enroll-lab/cmd/promsteps	0.004s
+ok  	enroll-lab/cmd/scaler	0.002s
+ok  	enroll-lab/internal/metrics	0.004s
